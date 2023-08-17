@@ -22,6 +22,10 @@ body {
     width: 100%;
 }
 
+.container::-webkit-scrollbar-button {
+    width: 400px;
+}
+
 .slide {
     scroll-snap-align: start;
 }
@@ -128,7 +132,7 @@ body {
 
 #education p {
     width: 100%;
-    padding: 5% 0;
+    padding: 8% 0 2% 0;
     text-align: center;
     justify-content: center;
     font-size: 2.5rem;
