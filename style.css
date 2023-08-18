@@ -9,6 +9,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
     overflow: hidden;
+    user-select: none;
 }
 
 body {
