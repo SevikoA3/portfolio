@@ -169,6 +169,13 @@ background: #555;
     align-items: center;
     width: 20vw;
     height: 30vh;
+    filter: grayscale(100%);
+    transition: filter ease 0.5s, scale ease 0.5s;
+}
+
+#education a:hover {
+    scale: 1.1;
+    filter: grayscale(0%);
 }
 
 #education .pictures {
@@ -177,13 +184,6 @@ background: #555;
     height: 100%;
     border-radius: 10%;
     cursor: pointer;
-    filter: grayscale(100%);
-    transition: filter ease 0.5s, scale ease 0.5s;
-}
-
-#education .pictures:hover {
-    scale: 1.1;
-    filter: grayscale(0%);
 }
 
 @keyframes animate {
