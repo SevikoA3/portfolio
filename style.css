@@ -190,6 +190,79 @@ background: #555;
     cursor: pointer;
 }
 
+#contact {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactContainer {
+    display: flex;
+    gap: 20px;
+}
+
+#contact h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 10vh 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+}
+
+.card p {
+    font-size: 0;
+    font-weight: 500;
+    transition: ease 0.5s;
+    
+}
+
+.card:hover p {
+    font-size: 1.5rem;
+}
+
+.icon {
+    background-color: #F2DC6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    transition: ease 0.5s;
+}
+
+.icon:hover {
+    background-color: #010D26;
+    scale: 1.5;
+}
+
+.icon:hover svg path {
+    fill: #F2DC6D;
+}
+
+svg {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+svg path {
+    fill: #010D26;
+    cursor: pointer;
+}
+
 @keyframes animate {
     0%, 40% {
         left: 0%;
@@ -268,5 +341,36 @@ background: #555;
 
     ::-webkit-scrollbar {
         width: 5px;
+    }
+
+    .contactContainer {
+        flex-direction: column;
+    }
+
+    #contact h1 {
+        padding: 1vh 0 6vh 0;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .icon svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .card {
+        height: 125px;
+    }
+
+    .card p {
+        font-size: 0;
+    }
+
+    .card:hover p {
+        font-size: 1rem;
     }
 }
