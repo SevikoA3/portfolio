@@ -201,7 +201,8 @@ background: #555;
 
 .contactContainer {
     display: flex;
-    gap: 20px;
+    background-color: #031337;
+    border-radius: 50px;
 }
 
 #contact h1 {
@@ -216,14 +217,14 @@ background: #555;
     justify-content: center;
     align-items: center;
     width: 400px;
-    height: 300px;
+    height: 250px;
 }
 
 .card p {
     font-size: 0;
     font-weight: 500;
+    color: #D9D9D9;
     transition: ease 0.5s;
-    
 }
 
 .card:hover p {
@@ -364,6 +365,7 @@ svg path {
 
     .card {
         height: 125px;
+        width: 300px;
     }
 
     .card p {
