@@ -238,9 +238,9 @@ background: #555;
 
     .photo {
         padding: 2vh 0 0 0;
-        max-width: 300px;
-        height: 400px;
-        border-radius: 50px;
+        max-width: 250px;
+        height: calc(250px / 4 * 5);
+        border-radius: 25px;
     }
 
     .textContainer p {
