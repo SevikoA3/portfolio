@@ -215,7 +215,7 @@ background: #555;
 
     #about {
         flex-direction: column-reverse;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .imgContainer {
@@ -231,9 +231,11 @@ background: #555;
 
     .textContainer {
         max-height: 50%;
+        padding-bottom: 20%;
     }
 
     .photo {
+        padding: 20% 0 0 0;
         max-width: 200px;
         height: 300px;
         border-radius: 50px;
