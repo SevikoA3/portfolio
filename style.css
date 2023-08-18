@@ -130,7 +130,7 @@ background: #555;
     max-width:50%;
     height: 80%;
     object-fit: contain;
-    border-radius: 10%;
+    border-radius: 50px;
     filter: grayscale(100%);
     transition: filter ease 0.5s;
 }
@@ -204,8 +204,13 @@ background: #555;
 }
 
 @media (max-width: 700px) {
-    .photo {
+    /* .photo {
         display: none;
+    } */
+
+    #about {
+        flex-direction: column-reverse;
+        justify-content: space-around;
     }
 
     .imgContainer {
@@ -219,17 +224,37 @@ background: #555;
         height: 125px;
     }
 
+    .textContainer {
+        max-height: 50%;
+    }
+
+    .photo {
+        max-width: 200px;
+        height: 300px;
+        border-radius: 50px;
+    }
+
     .textContainer p {
         font-size: 1.2rem;
-        padding-top: 50%;
     }
 
     .textContainer span {
         font-size: 1.4rem;
     }
 
+    #content1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     #content1 a {
         font-size: 3rem;
+    }
+
+    #content1 a:hover {
+        background-size: 0% 0%;
+        text-shadow: 2.5px 2.5px #F2DC6D;
     }
 
     ::-webkit-scrollbar {
