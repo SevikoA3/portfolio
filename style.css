@@ -217,4 +217,17 @@ background: #555;
         width: 125px;
         height: 125px;
     }
+
+    .textContainer p {
+        font-size: 1.2rem;
+        padding-top: 50%;
+    }
+
+    .textContainer span {
+        font-size: 1.4rem;
+    }
+
+    #content1 a {
+        font-size: 3rem;
+    }
 }

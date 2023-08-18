@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (x.matches) { 
           text1Cont.innerHTML = "My name is <b>Seviko Attalarik P.H.</b><br>I'm a ";
         }else {
-            text1Cont.innerHTML = "My name is <b>Seviko Attalarik P.H.</b><br>I'm a<br> ";
+            text1Cont.innerHTML = "My name is <b>Seviko Attalarik P.H.</b> I'm a<br> ";
         }
     }
     
