@@ -215,7 +215,6 @@ background: #555;
 
     #about {
         flex-direction: column-reverse;
-        justify-content: space-between;
     }
 
     .imgContainer {
@@ -262,10 +261,6 @@ background: #555;
     #content1 a:hover {
         background-size: 0% 0%;
         text-shadow: 2.5px 2.5px #F2DC6D;
-    }
-
-    #education {
-        justify-content: space-around;
     }
 
     ::-webkit-scrollbar {
