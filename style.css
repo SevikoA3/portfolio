@@ -231,11 +231,11 @@ background: #555;
 
     .textContainer {
         max-height: 50%;
-        padding-bottom: 20%;
+        padding-bottom: 10vh;
     }
 
     .photo {
-        padding: 20% 0 0 0;
+        padding: 5vh 0 0 0;
         max-width: 200px;
         height: 300px;
         border-radius: 50px;
