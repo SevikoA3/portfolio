@@ -231,4 +231,8 @@ background: #555;
     #content1 a {
         font-size: 3rem;
     }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
 }
