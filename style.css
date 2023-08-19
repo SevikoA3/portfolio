@@ -197,7 +197,6 @@ background: #555;
     height: 100vh;
     width: 100%;
     align-items: center;
-    justify-content: center;
 }
 
 .contactContainer {
@@ -209,7 +208,7 @@ background: #555;
 #contact h1 {
     font-size: 3rem;
     font-weight: 500;
-    padding: 10vh 0;
+    padding: 10vh 0 20vh 0;
 }
 
 .card {
@@ -350,7 +349,7 @@ svg path {
     }
 
     #contact h1 {
-        padding: 1vh 0 6vh 0;
+        padding: 10vh 0;
     }
 
     .icon {
