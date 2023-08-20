@@ -9,6 +9,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
     user-select: none;
+    overflow-y: hidden;
 }
 
 body {
@@ -89,6 +90,7 @@ background: #555;
 
 .textContainer {
     max-width: 60%;
+    overflow: hidden;
 }
 
 .textContainer p {
